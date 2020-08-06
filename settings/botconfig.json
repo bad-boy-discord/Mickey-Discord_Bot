@@ -1,0 +1,5 @@
+{
+    "token": "BOT_TOKEN ( https://discord.com/developers/applications )",
+    "default_prefix": "BOT_PREFIX",
+    "owner_id": "BOT_OWNER_ID ( DEVELOPER MODE )"
+}

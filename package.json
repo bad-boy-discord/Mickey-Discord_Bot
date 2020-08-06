@@ -1,0 +1,28 @@
+{
+  "name": "mickey_2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.6.4",
+    "fs": "0.0.1-security",
+    "mathjs": "^7.0.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.0",
+    "node-osu": "^2.2.0",
+    "pretty-ms": "^7.0.0",
+    "quick.db": "^7.0.0-b22",
+    "superagent": "^5.2.2",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
