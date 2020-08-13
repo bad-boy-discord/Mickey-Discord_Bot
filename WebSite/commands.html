@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/featurescss.css">
+        <link rel="stylesheet" href="css/now-ui-kit.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <title>Mickey - Discord Bot</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
+            </button>
+            <img src="assets/BotLogo.png" width="50" height="50">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important;">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="/" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/commands" class="nav-link">Команды</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/features" class="nav-link">Функции/Фишки</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="features">
+            <div class="title">Команды бота</div>
+            <div class="subtitle2">На данный момент Микки имеет <b>37</b> команд!</div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">❯ Развлечения</div><br>
+                        <div class="card-text">1. <b>cat</b> - Рандом картинка с котом.<br>
+                            2. <b>dog</b> - Рандом картинка с собакой.<br>
+                            3. <b>meme</b> - Рандом картинка с мемом.</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">❯ Модерация</div><br>
+                        <div class="card-text">1. <b>addrole</b> - Выдать роль пользователю.<br>
+                            2. <b>ban</b> - Забанить пользователя.<br>
+                            3. <b>clear</b> - Очистить сообщения.<br>
+                            5. <b>kick</b> - Кикнуть/Выгнать пользователя.<br>
+                            6. <b>poll</b> - Создать голосование.<br>
+                            7. <b>removerole</b> - Забрать роль у пользователя.<br>
+                            8. <b>unban</b> - Разбанить пользователя(Требуется ID Пользователя).<br>
+                            9. <b>warn</b> - Выдать предупреждение пользователю.<br>
+                            10. <b>unwarn</b> - Забрать все предупреждения у пользователя.<br>
+                            11. <b>warnlevel</b> - Посмотреть количество предупреждений.</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">❯ Кастомизация</div><br>
+                        <div class="card-text">1. <b>setwchannel</b> - Установить приветственный канал.<br>
+                            2. <b>setbchannel</b> - Установить канал для прощаний.<br>
+                            3. <b>setilchannel</b> - Установить канал для логов об инвайтах.<br>
+                            4. <b>setprefix</b> - Установить новый префикс сервера.</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">❯ Остальное</div><br>
+                        <div class="card-text">1. <b>help</b> - Список команд.<br>
+                            2. <b>math</b> - Решить математический пример.<br>
+                            3. <b>userinfo</b> - Информация пользователя.<br>
+                            4. <b>ping</b> - Пинг бота.<br>
+                            5. <b>report</b> - Подать жалобу на пользователя.<br>
+                            6. <b>serverinfo</b> - Информация сервера.<br>
+                            7. <b>uptime</b> - Время работы бота.<br>
+                            8. <b>config</b> - Конфиг сервера.<br>
+                            9. <b>weather</b> - Погода в городе/стране.</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">❯ Поддержка</div><br>
+                        <div class="card-text">1. <b>bugreport</b> - Уведомить создателя о баге.<br>
+                            2. <b>call</b> - Вызвать создателя на сервер.</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">❯ Музыка(Новинка)</div><br>
+                        <div class="card-text">1. <b>play</b> - Включить музыку.<br>
+                            2. <b>stop</b> - Остановить всю музыку.<br>
+                            3. <b>skip</b> - Пропустить песню.<br>
+                            4. <b>pause</b> - Поставить музыку на паузу.<br>
+                            5. <b>resume</b> - Возобновить музыку.<br>
+                            6. <b>queue</b> - Посмотреть очередь песен.<br>
+                            7. <b>loop</b> - Включить повторение песен.</div>
+                    </div>
+                </div>
+            </div>
+                        
+        </div>
+    </body>
+</html>
